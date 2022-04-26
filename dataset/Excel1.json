@@ -1,0 +1,22 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Raisin_Grains_Dataset",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Raisin_Dataset.xlsx",
+				"folderPath": "Raisin",
+				"container": "chakri"
+			}
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

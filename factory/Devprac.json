@@ -1,0 +1,9 @@
+{
+	"name": "Devprac",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8e0f05b9-5142-420f-9285-008d47e66bb1",
+		"tenantId": "e401b94a-3f04-43a7-b132-c1408093d776"
+	}
+}
